@@ -3,7 +3,11 @@ lockfileVersion: 5.4
 specifiers:
   '@tonyptang/eslint-config': ^0.1.1
   eslint: ^8.27.0
+  stylelint-config-standard: ^29.0.0
   typescript: ^4.8.4
+
+dependencies:
+  stylelint-config-standard: registry.npmmirror.com/stylelint-config-standard/29.0.0
 
 devDependencies:
   '@tonyptang/eslint-config': registry.npmmirror.com/@tonyptang/eslint-config/0.1.1_rmayb2veg2btbq6mbmnyivgasy
@@ -2490,6 +2494,24 @@ packages:
     version: 3.1.1
     engines: {node: '>=8'}
     dev: true
+
+  registry.npmmirror.com/stylelint-config-recommended/9.0.0:
+    resolution: {integrity: sha512-9YQSrJq4NvvRuTbzDsWX3rrFOzOlYBmZP+o513BJN/yfEmGSr0AxdvrWs0P/ilSpVV/wisamAHu5XSk8Rcf4CQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/stylelint-config-recommended/-/stylelint-config-recommended-9.0.0.tgz}
+    name: stylelint-config-recommended
+    version: 9.0.0
+    peerDependencies:
+      stylelint: ^14.10.0
+    dev: false
+
+  registry.npmmirror.com/stylelint-config-standard/29.0.0:
+    resolution: {integrity: sha512-uy8tZLbfq6ZrXy4JKu3W+7lYLgRQBxYTUUB88vPgQ+ZzAxdrvcaSUW9hOMNLYBnwH+9Kkj19M2DHdZ4gKwI7tg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/stylelint-config-standard/-/stylelint-config-standard-29.0.0.tgz}
+    name: stylelint-config-standard
+    version: 29.0.0
+    peerDependencies:
+      stylelint: ^14.14.0
+    dependencies:
+      stylelint-config-recommended: registry.npmmirror.com/stylelint-config-recommended/9.0.0
+    dev: false
 
   registry.npmmirror.com/supports-color/5.5.0:
     resolution: {integrity: sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/supports-color/-/supports-color-5.5.0.tgz}
