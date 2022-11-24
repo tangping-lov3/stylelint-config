@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ./t.ts"
+    "lint": "eslint ./t.ts",
+    "p": "npm publish --access public"
   },
   "keywords": [],
   "author": "",
