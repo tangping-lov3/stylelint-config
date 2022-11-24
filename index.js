@@ -9,7 +9,7 @@ module.exports = {
     'no-duplicate-selectors': null,
     'font-family-no-duplicate-names': null,
     'at-rule-no-unknown': null,
-    'unit-no-unknown': [true, ['rpx']]
+    'unit-no-unknown': null
   },
   files: ['vue', 'css', 'less']
 }
