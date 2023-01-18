@@ -29,7 +29,8 @@ module.exports = {
     'no-duplicate-selectors': null,
     'font-family-no-duplicate-names': null,
     'at-rule-no-unknown': null,
-    'unit-no-unknown': null
+    'unit-no-unknown': null,
+    'no-descending-specificity': null
   },
   files: ['vue', 'css', 'less', 'scss']
 }
