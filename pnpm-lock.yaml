@@ -7,6 +7,7 @@ specifiers:
   postcss-less: ^6.0.0
   postcss-scss: ^4.0.6
   stylelint: ^14.16.1
+  stylelint-config-standard: ^29.0.0
   stylelint-config-standard-vue: ^1.0.0
   stylelint-less: ^1.0.6
   typescript: ^4.8.4
@@ -15,6 +16,7 @@ dependencies:
   postcss-html: 1.5.0
   postcss-less: 6.0.0
   postcss-scss: 4.0.6
+  stylelint-config-standard: 29.0.0_stylelint@14.16.1
   stylelint-config-standard-vue: 1.0.0_kbto3rg3njmczth2rrsgfnlsqa
   stylelint-less: 1.0.6_stylelint@14.16.1
 
