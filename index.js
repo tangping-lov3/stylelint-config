@@ -1,5 +1,21 @@
 module.exports = {
-  extends: 'stylelint-config-standard',
+  // customSyntax: 'postcss-less',,
+  extends: ['stylelint-config-standard'],
+  overrides: [
+    {
+      files: ['**/*.vue'],
+      customSyntax: 'postcss-html',
+      extends: ['stylelint-config-standard-vue']
+    },
+    {
+      'files': ['**/*.less'],
+      customSyntax: 'postcss-less'
+    },
+    {
+      'files': ['**/*.scss'],
+      customSyntax: 'postcss-scss'
+    }
+  ],
   rules: {
     'alpha-value-notation': 'number',
     'selector-class-pattern': '.*',
